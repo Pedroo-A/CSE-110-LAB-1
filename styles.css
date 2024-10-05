@@ -1,10 +1,30 @@
 .Section1 {
     background: rgb(245,240,230)
+
 }
 .Section2{
 background-image:url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg")
 }
+.Section1, .Section2{
+    display: block;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    scroll-margin-top: 100px;
+}
+.Section1 img, .Section2 img{
+    display: inline;
 
+}
 body{
     margin: 0;
+}
+li{
+    display: inline;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+
 }
